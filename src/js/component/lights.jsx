@@ -1,6 +1,6 @@
 import React from "react";
 //import React, { useState, useEffect } from 'react';
-import LightSelected from "./functions";
+
 export default class Lights extends React.Component{
 constructor(){
   super();
