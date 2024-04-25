@@ -10,3 +10,44 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.top{
+background-color: black;
+width: 10px;
+height: 75px;
+margin-left: 85px;
+margin-top: px;
+margin: auto;
+}
+
+.base{
+    width: 6rem;
+    height:9rem ;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin: auto;
+    background: black;
+    border-radius: 0.5rem;
+}
+
+.light{
+    width: 3rem;
+    height:3rem ;
+    margin-left: 50px;
+    border-radius: 50%;
+    padding: 4px;
+    margin-top: 0px;
+    margin: auto;
+    cursor: pointer;
+    &.red{background-color:red; }
+    &.yellow{background-color:yellow; }
+    &.green{background-color:green; }
+    &.selected{box-shadow :#f8ffcc 0px 0px 50px 20px; }
+}
